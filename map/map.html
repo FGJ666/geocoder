@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_f6af16b70c166dcf4aac7ee42e6a0acb {
+                #map_489d9b3a3676f8a4447d2a1076cb4198 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,18 +39,18 @@
 <body>
     
     
-            <div class="folium-map" id="map_f6af16b70c166dcf4aac7ee42e6a0acb" ></div>
+            <div class="folium-map" id="map_489d9b3a3676f8a4447d2a1076cb4198" ></div>
         
 </body>
 <script>
     
     
-            var map_f6af16b70c166dcf4aac7ee42e6a0acb = L.map(
-                "map_f6af16b70c166dcf4aac7ee42e6a0acb",
+            var map_489d9b3a3676f8a4447d2a1076cb4198 = L.map(
+                "map_489d9b3a3676f8a4447d2a1076cb4198",
                 {
-                    center: [40.707284543061, -74.011910079984],
+                    center: [0.0, 0.0],
                     crs: L.CRS.EPSG3857,
-                    zoom: 4,
+                    zoom: 1,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -60,22 +60,37 @@
 
         
     
-            var tile_layer_c799e9a796b048878ef8d22fe7c07830 = L.tileLayer(
+            var tile_layer_854da09709c802c5170a370f47fc3a23 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_c799e9a796b048878ef8d22fe7c07830.addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            tile_layer_854da09709c802c5170a370f47fc3a23.addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            var marker_1d4c711f39576368f6c283760e8f6f11 = L.marker(
+            var marker_8934524e86af2c4656bbafc7a4ce33df = L.marker(
                 [40.707284543061, -74.011910079984],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_1d4c711f39576368f6c283760e8f6f11.bindTooltip(
+        var popup_4d9248882546f8f04b410503ff187212 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01b237ed5b13f983da8fb2c2f0cf19e2 = $(`<div id="html_01b237ed5b13f983da8fb2c2f0cf19e2" style="width: 100.0%; height: 100.0%;">Financial District, New York City</div>`)[0];
+                popup_4d9248882546f8f04b410503ff187212.setContent(html_01b237ed5b13f983da8fb2c2f0cf19e2);
+            
+        
+
+        marker_8934524e86af2c4656bbafc7a4ce33df.bindPopup(popup_4d9248882546f8f04b410503ff187212)
+        ;
+
+        
+    
+    
+            marker_8934524e86af2c4656bbafc7a4ce33df.bindTooltip(
                 `<div>
                      1 Wall St, New York, New York, 10005
                  </div>`,
@@ -83,13 +98,28 @@
             );
         
     
-            var marker_91f836f5a8d13d8d7b9a57ca3743d61e = L.marker(
+            var marker_b41f49ff668909caeada17d4300fdabf = L.marker(
                 [37.761547490999, -122.470431371565],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_91f836f5a8d13d8d7b9a57ca3743d61e.bindTooltip(
+        var popup_c69bd7d5f72110aa2f82c26a3e6aa4db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad034663490e624c7434569ba1076ec5 = $(`<div id="html_ad034663490e624c7434569ba1076ec5" style="width: 100.0%; height: 100.0%;">N-Funston Ave, San Francisco</div>`)[0];
+                popup_c69bd7d5f72110aa2f82c26a3e6aa4db.setContent(html_ad034663490e624c7434569ba1076ec5);
+            
+        
+
+        marker_b41f49ff668909caeada17d4300fdabf.bindPopup(popup_c69bd7d5f72110aa2f82c26a3e6aa4db)
+        ;
+
+        
+    
+    
+            marker_b41f49ff668909caeada17d4300fdabf.bindTooltip(
                 `<div>
                      Funston Ave, San Francisco, California, 94122
                  </div>`,
@@ -97,13 +127,28 @@
             );
         
     
-            var marker_ed4418eb128ac56ac10858aba1f4355c = L.marker(
+            var marker_b20e2b3509747b7889544022d020c4b3 = L.marker(
                 [43.874208751811, -103.454227031946],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_ed4418eb128ac56ac10858aba1f4355c.bindTooltip(
+        var popup_8470c8393438ca49687399c6ab0cf8cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9021aa26521aa667ebc9d737f1bf874f = $(`<div id="html_9021aa26521aa667ebc9d737f1bf874f" style="width: 100.0%; height: 100.0%;">Mount Rushmore National Memorial, Mount Rushmore</div>`)[0];
+                popup_8470c8393438ca49687399c6ab0cf8cf.setContent(html_9021aa26521aa667ebc9d737f1bf874f);
+            
+        
+
+        marker_b20e2b3509747b7889544022d020c4b3.bindPopup(popup_8470c8393438ca49687399c6ab0cf8cf)
+        ;
+
+        
+    
+    
+            marker_b20e2b3509747b7889544022d020c4b3.bindTooltip(
                 `<div>
                      Mount Rushmore National Memorial, Keystone, South Dakota, 57751
                  </div>`,
@@ -111,13 +156,28 @@
             );
         
     
-            var marker_88a3ea3f3283f2ab5a9be5dfa25a8cc6 = L.marker(
+            var marker_d3cbb930f88e62ab45991132ebdf1b68 = L.marker(
                 [38.897675107651, -77.036546998209],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_88a3ea3f3283f2ab5a9be5dfa25a8cc6.bindTooltip(
+        var popup_efa743be1ba557951a2bebde6cd8d8c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3c397f13b09569a0ce0d2b3f78848b8 = $(`<div id="html_c3c397f13b09569a0ce0d2b3f78848b8" style="width: 100.0%; height: 100.0%;">NW Independence Ave SW, Washington, D.C.</div>`)[0];
+                popup_efa743be1ba557951a2bebde6cd8d8c8.setContent(html_c3c397f13b09569a0ce0d2b3f78848b8);
+            
+        
+
+        marker_d3cbb930f88e62ab45991132ebdf1b68.bindPopup(popup_efa743be1ba557951a2bebde6cd8d8c8)
+        ;
+
+        
+    
+    
+            marker_d3cbb930f88e62ab45991132ebdf1b68.bindTooltip(
                 `<div>
                      1600 Pennsylvania Ave NW, Washington, District of Columbia, 20500
                  </div>`,
@@ -125,13 +185,28 @@
             );
         
     
-            var marker_6949e784b6c3aa3eac8609487e034abd = L.marker(
+            var marker_945197fc70da3faa3443263f55122769 = L.marker(
                 [41.88088065993, -87.617151749561],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_6949e784b6c3aa3eac8609487e034abd.bindTooltip(
+        var popup_72ab30e77085a837dbae48309ca5ec23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_187b56fa4f47b8d3371fd15e97a1503b = $(`<div id="html_187b56fa4f47b8d3371fd15e97a1503b" style="width: 100.0%; height: 100.0%;">Millennium Park, Chicago</div>`)[0];
+                popup_72ab30e77085a837dbae48309ca5ec23.setContent(html_187b56fa4f47b8d3371fd15e97a1503b);
+            
+        
+
+        marker_945197fc70da3faa3443263f55122769.bindPopup(popup_72ab30e77085a837dbae48309ca5ec23)
+        ;
+
+        
+    
+    
+            marker_945197fc70da3faa3443263f55122769.bindTooltip(
                 `<div>
                      200 S Lake Shore Dr, Chicago, Illinois, 60603
                  </div>`,
@@ -139,13 +214,28 @@
             );
         
     
-            var marker_c4d13be7ec392fff53fc9783b4c66de4 = L.marker(
+            var marker_7bf8d33531737a852b43fc64bd918a07 = L.marker(
                 [29.959110610746, -90.065297162552],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_c4d13be7ec392fff53fc9783b4c66de4.bindTooltip(
+        var popup_2bf534c79211f9208be2390d74694379 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_973a4a391d989c5e1a233980b224ebd0 = $(`<div id="html_973a4a391d989c5e1a233980b224ebd0" style="width: 100.0%; height: 100.0%;">Bourbon St, New Orleans</div>`)[0];
+                popup_2bf534c79211f9208be2390d74694379.setContent(html_973a4a391d989c5e1a233980b224ebd0);
+            
+        
+
+        marker_7bf8d33531737a852b43fc64bd918a07.bindPopup(popup_2bf534c79211f9208be2390d74694379)
+        ;
+
+        
+    
+    
+            marker_7bf8d33531737a852b43fc64bd918a07.bindTooltip(
                 `<div>
                      723 Bourbon St, New Orleans, Louisiana, 70116
                  </div>`,
@@ -153,13 +243,28 @@
             );
         
     
-            var marker_648d7fe1c05aab1054594d31c30cdef1 = L.marker(
+            var marker_0c3234f5bd925cf0e2174df255665732 = L.marker(
                 [36.129987347159, -115.166478531496],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_648d7fe1c05aab1054594d31c30cdef1.bindTooltip(
+        var popup_f180ccc95f8783509e4003ed463d4b56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d23c71e1aec0e5db3b6784e2f649f4b9 = $(`<div id="html_d23c71e1aec0e5db3b6784e2f649f4b9" style="width: 100.0%; height: 100.0%;">Paradise Rd, Las Vegas</div>`)[0];
+                popup_f180ccc95f8783509e4003ed463d4b56.setContent(html_d23c71e1aec0e5db3b6784e2f649f4b9);
+            
+        
+
+        marker_0c3234f5bd925cf0e2174df255665732.bindPopup(popup_f180ccc95f8783509e4003ed463d4b56)
+        ;
+
+        
+    
+    
+            marker_0c3234f5bd925cf0e2174df255665732.bindTooltip(
                 `<div>
                      3100 Las Vegas Blvd S, Las Vegas, Nevada, 89109
                  </div>`,
@@ -167,13 +272,28 @@
             );
         
     
-            var marker_93264aaf00b7350e7001139f1da28f29 = L.marker(
+            var marker_8a9028a8bb1ad669b3104d529c4b0891 = L.marker(
                 [34.101839998784, -118.336535989464],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_93264aaf00b7350e7001139f1da28f29.bindTooltip(
+        var popup_760c07aef4cfa46fc6ba3dcdd2e90464 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bf8035b8849fb794fbbaeaa22a01c99 = $(`<div id="html_6bf8035b8849fb794fbbaeaa22a01c99" style="width: 100.0%; height: 100.0%;">Hollywood Walk of Fame, Los Angeles</div>`)[0];
+                popup_760c07aef4cfa46fc6ba3dcdd2e90464.setContent(html_6bf8035b8849fb794fbbaeaa22a01c99);
+            
+        
+
+        marker_8a9028a8bb1ad669b3104d529c4b0891.bindPopup(popup_760c07aef4cfa46fc6ba3dcdd2e90464)
+        ;
+
+        
+    
+    
+            marker_8a9028a8bb1ad669b3104d529c4b0891.bindTooltip(
                 `<div>
                      6701 Hollywood Blvd, Los Angeles, California, 90028
                  </div>`,
@@ -181,13 +301,28 @@
             );
         
     
-            var marker_11f7b315ea1f59d5729fcec4d8a063f6 = L.marker(
+            var marker_20247ab0313ff47bd12e53a85bb97043 = L.marker(
                 [27.607573679703, -80.338670990326],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_11f7b315ea1f59d5729fcec4d8a063f6.bindTooltip(
+        var popup_a312ed8711caf3cf9ba84a14c654c19a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a4ebc93ad3c6d99da40a928a7e6ed82 = $(`<div id="html_5a4ebc93ad3c6d99da40a928a7e6ed82" style="width: 100.0%; height: 100.0%;">Ocean Dr, Miami</div>`)[0];
+                popup_a312ed8711caf3cf9ba84a14c654c19a.setContent(html_5a4ebc93ad3c6d99da40a928a7e6ed82);
+            
+        
+
+        marker_20247ab0313ff47bd12e53a85bb97043.bindPopup(popup_a312ed8711caf3cf9ba84a14c654c19a)
+        ;
+
+        
+    
+    
+            marker_20247ab0313ff47bd12e53a85bb97043.bindTooltip(
                 `<div>
                      1116 Ocean Way, Vero Beach, Florida, 32963
                  </div>`,
@@ -195,13 +330,28 @@
             );
         
     
-            var marker_13d764433f275461806b4b8dc04ab116 = L.marker(
+            var marker_5b68aa3d42355fd5f87a992d9795094d = L.marker(
                 [47.62210199033, -122.353993999937],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_13d764433f275461806b4b8dc04ab116.bindTooltip(
+        var popup_f6e48e9166eb0493d7790ca4524314f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6601691899516ac6bc97e79af2eb0a6 = $(`<div id="html_b6601691899516ac6bc97e79af2eb0a6" style="width: 100.0%; height: 100.0%;">1st Ave N, Seattle</div>`)[0];
+                popup_f6e48e9166eb0493d7790ca4524314f4.setContent(html_b6601691899516ac6bc97e79af2eb0a6);
+            
+        
+
+        marker_5b68aa3d42355fd5f87a992d9795094d.bindPopup(popup_f6e48e9166eb0493d7790ca4524314f4)
+        ;
+
+        
+    
+    
+            marker_5b68aa3d42355fd5f87a992d9795094d.bindTooltip(
                 `<div>
                      400 1st Ave N, Seattle, Washington, 98109
                  </div>`,
@@ -209,13 +359,28 @@
             );
         
     
-            var marker_f80a179fecfc308429f3d0e00eb1026c = L.marker(
+            var marker_253e123062e9b8c8948f28c250820e46 = L.marker(
                 [48.8697301, 2.3082335],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_f80a179fecfc308429f3d0e00eb1026c.bindTooltip(
+        var popup_297147c1ecbf4578bf540ec881ab0ea8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b067d29f7fb8d8c505cab003c2cabf38 = $(`<div id="html_b067d29f7fb8d8c505cab003c2cabf38" style="width: 100.0%; height: 100.0%;">Champs-Élysées, Paris</div>`)[0];
+                popup_297147c1ecbf4578bf540ec881ab0ea8.setContent(html_b067d29f7fb8d8c505cab003c2cabf38);
+            
+        
+
+        marker_253e123062e9b8c8948f28c250820e46.bindPopup(popup_297147c1ecbf4578bf540ec881ab0ea8)
+        ;
+
+        
+    
+    
+            marker_253e123062e9b8c8948f28c250820e46.bindTooltip(
                 `<div>
                      Champs-Élysées
                  </div>`,
@@ -223,13 +388,28 @@
             );
         
     
-            var marker_fae28aab0e3b3ae96b183cc70edaa8ed = L.marker(
+            var marker_63add564f3a4b6dbfece5a8c345608ef = L.marker(
                 [41.889957, 12.4933358],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_fae28aab0e3b3ae96b183cc70edaa8ed.bindTooltip(
+        var popup_4f5e4e2c496721fecb518f5bf483bb4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d01e2747e2bfdce0440529b5c59051a = $(`<div id="html_5d01e2747e2bfdce0440529b5c59051a" style="width: 100.0%; height: 100.0%;">Colosseo, Rome</div>`)[0];
+                popup_4f5e4e2c496721fecb518f5bf483bb4d.setContent(html_5d01e2747e2bfdce0440529b5c59051a);
+            
+        
+
+        marker_63add564f3a4b6dbfece5a8c345608ef.bindPopup(popup_4f5e4e2c496721fecb518f5bf483bb4d)
+        ;
+
+        
+    
+    
+            marker_63add564f3a4b6dbfece5a8c345608ef.bindTooltip(
                 `<div>
                      Colosseo
                  </div>`,
@@ -237,13 +417,28 @@
             );
         
     
-            var marker_98337350d388734751054ee116ab847c = L.marker(
+            var marker_c7d2a537ac492434017fe1fc302d3fab = L.marker(
                 [39.902361253954, 116.391459619195],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_98337350d388734751054ee116ab847c.bindTooltip(
+        var popup_2befbbd6bea6699cc160ac1e5fd47032 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d500bdad2d380e7ca1b55eaec10739e = $(`<div id="html_2d500bdad2d380e7ca1b55eaec10739e" style="width: 100.0%; height: 100.0%;">东城区, Beijing</div>`)[0];
+                popup_2befbbd6bea6699cc160ac1e5fd47032.setContent(html_2d500bdad2d380e7ca1b55eaec10739e);
+            
+        
+
+        marker_c7d2a537ac492434017fe1fc302d3fab.bindPopup(popup_2befbbd6bea6699cc160ac1e5fd47032)
+        ;
+
+        
+    
+    
+            marker_c7d2a537ac492434017fe1fc302d3fab.bindTooltip(
                 `<div>
                      天安门广场
                  </div>`,
@@ -251,13 +446,28 @@
             );
         
     
-            var marker_5d2f149893b5b14a89e31d869eb175ff = L.marker(
+            var marker_d3fd3858229fa68891e6af72b7129e3c = L.marker(
                 [51.500912516034, -0.122782037327],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_5d2f149893b5b14a89e31d869eb175ff.bindTooltip(
+        var popup_b638908b0699b188a2d1c26850ef1ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0decf183af1c92a0989031b6e9d0aac = $(`<div id="html_a0decf183af1c92a0989031b6e9d0aac" style="width: 100.0%; height: 100.0%;">Westminster, London</div>`)[0];
+                popup_b638908b0699b188a2d1c26850ef1ee0.setContent(html_a0decf183af1c92a0989031b6e9d0aac);
+            
+        
+
+        marker_d3fd3858229fa68891e6af72b7129e3c.bindPopup(popup_b638908b0699b188a2d1c26850ef1ee0)
+        ;
+
+        
+    
+    
+            marker_d3fd3858229fa68891e6af72b7129e3c.bindTooltip(
                 `<div>
                      Westminster Bridge Road, Saint. James's, Westminster, London, England, SE1 7
                  </div>`,
@@ -265,13 +475,28 @@
             );
         
     
-            var marker_a47fe5cf45e374f7fb47466837fe9fb0 = L.marker(
+            var marker_95e9291cbec73eaf5fccda1aff6d06ee = L.marker(
                 [52.516351086984, 13.379502749463],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_a47fe5cf45e374f7fb47466837fe9fb0.bindTooltip(
+        var popup_5e32bdf2f3b447372ad5139edefd6cac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3a162155b5ce342d49d7a8ecba31647 = $(`<div id="html_e3a162155b5ce342d49d7a8ecba31647" style="width: 100.0%; height: 100.0%;">Mitte, Berlin</div>`)[0];
+                popup_5e32bdf2f3b447372ad5139edefd6cac.setContent(html_e3a162155b5ce342d49d7a8ecba31647);
+            
+        
+
+        marker_95e9291cbec73eaf5fccda1aff6d06ee.bindPopup(popup_5e32bdf2f3b447372ad5139edefd6cac)
+        ;
+
+        
+    
+    
+            marker_95e9291cbec73eaf5fccda1aff6d06ee.bindTooltip(
                 `<div>
                      Pariser Platz, 10117, Berlin, Mitte, Berlin
                  </div>`,
@@ -279,13 +504,28 @@
             );
         
     
-            var marker_be005cfbb89aa49c9cfca7cd2b3ad24b = L.marker(
+            var marker_d690ff6024d3b7bcf4495e4878dc8bad = L.marker(
                 [55.7540296, 37.62045],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_be005cfbb89aa49c9cfca7cd2b3ad24b.bindTooltip(
+        var popup_afddab934e80331d82a8415c846be738 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aa6c1f5a105b76d0a9b16f131f0c688 = $(`<div id="html_3aa6c1f5a105b76d0a9b16f131f0c688" style="width: 100.0%; height: 100.0%;">Красная площадь, Moscow</div>`)[0];
+                popup_afddab934e80331d82a8415c846be738.setContent(html_3aa6c1f5a105b76d0a9b16f131f0c688);
+            
+        
+
+        marker_d690ff6024d3b7bcf4495e4878dc8bad.bindPopup(popup_afddab934e80331d82a8415c846be738)
+        ;
+
+        
+    
+    
+            marker_d690ff6024d3b7bcf4495e4878dc8bad.bindTooltip(
                 `<div>
                      Красная Площадь
                  </div>`,
@@ -293,13 +533,28 @@
             );
         
     
-            var marker_559dcb47c274aa24c4c96df4307e7794 = L.marker(
+            var marker_0bda13278cddf5248937bca27a23e71e = L.marker(
                 [35.01169705, 135.76816161],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_559dcb47c274aa24c4c96df4307e7794.bindTooltip(
+        var popup_7a6ffe145a5775024b5d22a0e2e99b40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eddb7c55585b76bd12d48a7b73bf77d5 = $(`<div id="html_eddb7c55585b76bd12d48a7b73bf77d5" style="width: 100.0%; height: 100.0%;">中京区, Kyoto</div>`)[0];
+                popup_7a6ffe145a5775024b5d22a0e2e99b40.setContent(html_eddb7c55585b76bd12d48a7b73bf77d5);
+            
+        
+
+        marker_0bda13278cddf5248937bca27a23e71e.bindPopup(popup_7a6ffe145a5775024b5d22a0e2e99b40)
+        ;
+
+        
+    
+    
+            marker_0bda13278cddf5248937bca27a23e71e.bindTooltip(
                 `<div>
                      Kyoto
                  </div>`,
@@ -307,13 +562,28 @@
             );
         
     
-            var marker_ea54823acdc5d75b6504672cf2cdf2bf = L.marker(
+            var marker_8e5cf18d893adb31ea539dfa06ac9499 = L.marker(
                 [-33.858776499452, 151.213215874142],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_ea54823acdc5d75b6504672cf2cdf2bf.bindTooltip(
+        var popup_37811326f2150608f430f4e9752ac505 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e18e9a6fe11d5451a37a105a41f12b58 = $(`<div id="html_e18e9a6fe11d5451a37a105a41f12b58" style="width: 100.0%; height: 100.0%;">Bennelong Point, Sydney</div>`)[0];
+                popup_37811326f2150608f430f4e9752ac505.setContent(html_e18e9a6fe11d5451a37a105a41f12b58);
+            
+        
+
+        marker_8e5cf18d893adb31ea539dfa06ac9499.bindPopup(popup_37811326f2150608f430f4e9752ac505)
+        ;
+
+        
+    
+    
+            marker_8e5cf18d893adb31ea539dfa06ac9499.bindTooltip(
                 `<div>
                      Sydney Opera House, 2 Circular Quay East, Sydney, New South Wales, 2000
                  </div>`,
@@ -321,13 +591,28 @@
             );
         
     
-            var marker_d97c04fc0c1a1c82e3fa08516fc439a0 = L.marker(
+            var marker_2e2830c3ad3f5db41e004321c9f25c37 = L.marker(
                 [30.0434879, 31.2352919],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_d97c04fc0c1a1c82e3fa08516fc439a0.bindTooltip(
+        var popup_3a341eb75533c65dd73a8a1637460d8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a405c3bcfed7a8bedd34dc8cd6405658 = $(`<div id="html_a405c3bcfed7a8bedd34dc8cd6405658" style="width: 100.0%; height: 100.0%;">طريق الأهرامات, Cairo</div>`)[0];
+                popup_3a341eb75533c65dd73a8a1637460d8a.setContent(html_a405c3bcfed7a8bedd34dc8cd6405658);
+            
+        
+
+        marker_2e2830c3ad3f5db41e004321c9f25c37.bindPopup(popup_3a341eb75533c65dd73a8a1637460d8a)
+        ;
+
+        
+    
+    
+            marker_2e2830c3ad3f5db41e004321c9f25c37.bindTooltip(
                 `<div>
                      Cairo
                  </div>`,
@@ -335,13 +620,28 @@
             );
         
     
-            var marker_99ec72660181303fcb8aa9bde8ff1edc = L.marker(
+            var marker_3b7ab1bb54695c29d818dec26d070179 = L.marker(
                 [-22.95166, -43.21083],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_99ec72660181303fcb8aa9bde8ff1edc.bindTooltip(
+        var popup_e70542dd3ddf672fd49033092342d795 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ac96d324635257778e0f9cd38e80f16 = $(`<div id="html_1ac96d324635257778e0f9cd38e80f16" style="width: 100.0%; height: 100.0%;">Corcovado, Rio de Janeiro</div>`)[0];
+                popup_e70542dd3ddf672fd49033092342d795.setContent(html_1ac96d324635257778e0f9cd38e80f16);
+            
+        
+
+        marker_3b7ab1bb54695c29d818dec26d070179.bindPopup(popup_e70542dd3ddf672fd49033092342d795)
+        ;
+
+        
+    
+    
+            marker_3b7ab1bb54695c29d818dec26d070179.bindTooltip(
                 `<div>
                      Cristo Redentor
                  </div>`,
@@ -349,13 +649,28 @@
             );
         
     
-            var marker_6ae7fdbfcc01f2e9ced6c59f53d37641 = L.marker(
+            var marker_98116f7b5e273dc26c8249aff62de039 = L.marker(
                 [19.294731123333, -99.155798490888],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_6ae7fdbfcc01f2e9ced6c59f53d37641.bindTooltip(
+        var popup_c8366f35880cff805899ae6910718c1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4f56c37a969165be8a5ab531a29c2ac = $(`<div id="html_d4f56c37a969165be8a5ab531a29c2ac" style="width: 100.0%; height: 100.0%;">Tlalpan, Mexico City</div>`)[0];
+                popup_c8366f35880cff805899ae6910718c1e.setContent(html_d4f56c37a969165be8a5ab531a29c2ac);
+            
+        
+
+        marker_98116f7b5e273dc26c8249aff62de039.bindPopup(popup_c8366f35880cff805899ae6910718c1e)
+        ;
+
+        
+    
+    
+            marker_98116f7b5e273dc26c8249aff62de039.bindTooltip(
                 `<div>
                      Calzada de Tlalpan 3471, Belisario Domínguez Sección XVI, Tlalpan, Ciudad de México, 14080
                  </div>`,
@@ -363,13 +678,28 @@
             );
         
     
-            var marker_1d156b83fb15b299433c7eeb9554e5dc = L.marker(
+            var marker_6caf9461c188beb2591cc5e05387a595 = L.marker(
                 [37.969390897997, 23.729079125323],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_1d156b83fb15b299433c7eeb9554e5dc.bindTooltip(
+        var popup_971743a288bb318a2449e5e01c17ac15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa14522285ae380a99c0d9321c8cf8bb = $(`<div id="html_aa14522285ae380a99c0d9321c8cf8bb" style="width: 100.0%; height: 100.0%;">Ακρόπολη, Athens</div>`)[0];
+                popup_971743a288bb318a2449e5e01c17ac15.setContent(html_aa14522285ae380a99c0d9321c8cf8bb);
+            
+        
+
+        marker_6caf9461c188beb2591cc5e05387a595.bindPopup(popup_971743a288bb318a2449e5e01c17ac15)
+        ;
+
+        
+    
+    
+            marker_6caf9461c188beb2591cc5e05387a595.bindTooltip(
                 `<div>
                      Διονυσίου Αρεοπαγίτου 15, 117 42, Αθήνα
                  </div>`,
@@ -377,13 +707,28 @@
             );
         
     
-            var marker_3a61d0a5ef3ca95aec5771d327ac2355 = L.marker(
+            var marker_68e0b09a6e8b2a1be62ebad3f763ff36 = L.marker(
                 [18.9218899, 72.8346699],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_3a61d0a5ef3ca95aec5771d327ac2355.bindTooltip(
+        var popup_442f9232909fd588b21951dac9e8688b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f136171398ef02517ec1d2d024d0fe2 = $(`<div id="html_2f136171398ef02517ec1d2d024d0fe2" style="width: 100.0%; height: 100.0%;">Colaba, Mumbai</div>`)[0];
+                popup_442f9232909fd588b21951dac9e8688b.setContent(html_2f136171398ef02517ec1d2d024d0fe2);
+            
+        
+
+        marker_68e0b09a6e8b2a1be62ebad3f763ff36.bindPopup(popup_442f9232909fd588b21951dac9e8688b)
+        ;
+
+        
+    
+    
+            marker_68e0b09a6e8b2a1be62ebad3f763ff36.bindTooltip(
                 `<div>
                      Gateway Of India
                  </div>`,
@@ -391,13 +736,28 @@
             );
         
     
-            var marker_b314d9418d2dd8217c19b91e267bd401 = L.marker(
+            var marker_096455e94d9d9f8dbd857807b9a1e9b7 = L.marker(
                 [41.007763124274, 28.97904846216],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_b314d9418d2dd8217c19b91e267bd401.bindTooltip(
+        var popup_69013c895f4d9027da3991dcceb4661c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67d647aa4d164e3e7c11b328ab4a18e8 = $(`<div id="html_67d647aa4d164e3e7c11b328ab4a18e8" style="width: 100.0%; height: 100.0%;">Fatih, Istanbul</div>`)[0];
+                popup_69013c895f4d9027da3991dcceb4661c.setContent(html_67d647aa4d164e3e7c11b328ab4a18e8);
+            
+        
+
+        marker_096455e94d9d9f8dbd857807b9a1e9b7.bindPopup(popup_69013c895f4d9027da3991dcceb4661c)
+        ;
+
+        
+    
+    
+            marker_096455e94d9d9f8dbd857807b9a1e9b7.bindTooltip(
                 `<div>
                      Cankurtaran, Ayasofya Meydanı, 34122, Fatih, İstanbul
                  </div>`,
@@ -405,13 +765,28 @@
             );
         
     
-            var marker_8c481cbab74da056c7452def9135024b = L.marker(
+            var marker_882906aeccdef30e8308abb3934b05f1 = L.marker(
                 [-33.949857139377, 18.397393521969],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_8c481cbab74da056c7452def9135024b.bindTooltip(
+        var popup_b73dae8f5473552fa46bfa0558884902 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44b22c3bdde39c576d6a7a1d98a6030c = $(`<div id="html_44b22c3bdde39c576d6a7a1d98a6030c" style="width: 100.0%; height: 100.0%;">Table Mountain National Park, Cape Town</div>`)[0];
+                popup_b73dae8f5473552fa46bfa0558884902.setContent(html_44b22c3bdde39c576d6a7a1d98a6030c);
+            
+        
+
+        marker_882906aeccdef30e8308abb3934b05f1.bindPopup(popup_b73dae8f5473552fa46bfa0558884902)
+        ;
+
+        
+    
+    
+            marker_882906aeccdef30e8308abb3934b05f1.bindTooltip(
                 `<div>
                      Tafelberg Road, Cape Town, City of Cape Town, Western Cape, 8001
                  </div>`,
@@ -419,13 +794,28 @@
             );
         
     
-            var marker_b7b3d97f7ca3029dc74790398f44a343 = L.marker(
+            var marker_738823c555b96f60cf0d699b2cb36ddd = L.marker(
                 [43.641936911103, -79.386715469596],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_b7b3d97f7ca3029dc74790398f44a343.bindTooltip(
+        var popup_a8b72d1a26e9b20a32267b7e11d66938 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad689d2dd1dfc2d0a9cdea14a7334786 = $(`<div id="html_ad689d2dd1dfc2d0a9cdea14a7334786" style="width: 100.0%; height: 100.0%;">Entertainment District, Toronto</div>`)[0];
+                popup_a8b72d1a26e9b20a32267b7e11d66938.setContent(html_ad689d2dd1dfc2d0a9cdea14a7334786);
+            
+        
+
+        marker_738823c555b96f60cf0d699b2cb36ddd.bindPopup(popup_a8b72d1a26e9b20a32267b7e11d66938)
+        ;
+
+        
+    
+    
+            marker_738823c555b96f60cf0d699b2cb36ddd.bindTooltip(
                 `<div>
                      290 Bremner Blvd, Toronto, Ontario, M5V 3L9
                  </div>`,
@@ -433,13 +823,28 @@
             );
         
     
-            var marker_5bd559a203713ab4d5bcf7e4d67fcdb2 = L.marker(
+            var marker_6420c4f47582927ea6606338819c6578 = L.marker(
                 [13.752547700907, 100.488422825049],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_5bd559a203713ab4d5bcf7e4d67fcdb2.bindTooltip(
+        var popup_b97bd3f220f37b6fa87ea0a96cc384d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1305b278ec0194fa941bc27fd30f229a = $(`<div id="html_1305b278ec0194fa941bc27fd30f229a" style="width: 100.0%; height: 100.0%;">Phra Nakhon, Bangkok</div>`)[0];
+                popup_b97bd3f220f37b6fa87ea0a96cc384d3.setContent(html_1305b278ec0194fa941bc27fd30f229a);
+            
+        
+
+        marker_6420c4f47582927ea6606338819c6578.bindPopup(popup_b97bd3f220f37b6fa87ea0a96cc384d3)
+        ;
+
+        
+    
+    
+            marker_6420c4f47582927ea6606338819c6578.bindTooltip(
                 `<div>
                      เขตพระนคร กุรงเทพมหานคร
                  </div>`,
@@ -447,13 +852,28 @@
             );
         
     
-            var marker_792b86a761441db06c559c6ff4a5029c = L.marker(
+            var marker_51aa18b4084d75e77162b0a0a1f90a75 = L.marker(
                 [38.697403569934, -9.205444383804],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_792b86a761441db06c559c6ff4a5029c.bindTooltip(
+        var popup_86087b59519631c2733848db0fce4145 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6168dd9c5cc8065bc357d5110435470 = $(`<div id="html_d6168dd9c5cc8065bc357d5110435470" style="width: 100.0%; height: 100.0%;">Belém, Lisbon</div>`)[0];
+                popup_86087b59519631c2733848db0fce4145.setContent(html_d6168dd9c5cc8065bc357d5110435470);
+            
+        
+
+        marker_51aa18b4084d75e77162b0a0a1f90a75.bindPopup(popup_86087b59519631c2733848db0fce4145)
+        ;
+
+        
+    
+    
+            marker_51aa18b4084d75e77162b0a0a1f90a75.bindTooltip(
                 `<div>
                      Praça do Império, 1400-206, Lisboa
                  </div>`,
@@ -461,13 +881,28 @@
             );
         
     
-            var marker_fa89c0925b117559c39ce6aeb3f3aa4b = L.marker(
+            var marker_70f776115c1d614c2f19cfb20a16d8eb = L.marker(
                 [52.35994237585, 4.885385644103],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_fa89c0925b117559c39ce6aeb3f3aa4b.bindTooltip(
+        var popup_f5a46744aa4249e5e7f0078e84d7b16f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b948f2b64fd169c037bd1fd84399ecfe = $(`<div id="html_b948f2b64fd169c037bd1fd84399ecfe" style="width: 100.0%; height: 100.0%;">Centrum, Amsterdam</div>`)[0];
+                popup_f5a46744aa4249e5e7f0078e84d7b16f.setContent(html_b948f2b64fd169c037bd1fd84399ecfe);
+            
+        
+
+        marker_70f776115c1d614c2f19cfb20a16d8eb.bindPopup(popup_f5a46744aa4249e5e7f0078e84d7b16f)
+        ;
+
+        
+    
+    
+            marker_70f776115c1d614c2f19cfb20a16d8eb.bindTooltip(
                 `<div>
                      Museumstraat 1, 1071 XX Amsterdam
                  </div>`,
@@ -475,17 +910,38 @@
             );
         
     
-            var marker_1a7b881200dda01c45e2b22271ba82c7 = L.marker(
+            var marker_7d13bbfe5e3502d7935abc85f85f0576 = L.marker(
                 [41.403187569884, 2.174823499366],
                 {}
-            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+            ).addTo(map_489d9b3a3676f8a4447d2a1076cb4198);
         
     
-            marker_1a7b881200dda01c45e2b22271ba82c7.bindTooltip(
+        var popup_49e5ebf07e190a9065102f9dd5539468 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_722c9caf35830f13b3dcdf2655b632a0 = $(`<div id="html_722c9caf35830f13b3dcdf2655b632a0" style="width: 100.0%; height: 100.0%;">Eixample, Barcelona</div>`)[0];
+                popup_49e5ebf07e190a9065102f9dd5539468.setContent(html_722c9caf35830f13b3dcdf2655b632a0);
+            
+        
+
+        marker_7d13bbfe5e3502d7935abc85f85f0576.bindPopup(popup_49e5ebf07e190a9065102f9dd5539468)
+        ;
+
+        
+    
+    
+            marker_7d13bbfe5e3502d7935abc85f85f0576.bindTooltip(
                 `<div>
                      Carrer de Mallorca 401, 08013, la Sagrada Família, Barcelona, Catalunya
                  </div>`,
                 {"sticky": true}
+            );
+        
+    
+            map_489d9b3a3676f8a4447d2a1076cb4198.fitBounds(
+                [[40.707284543061, -74.011910079984], [37.761547490999, -122.470431371565], [43.874208751811, -103.454227031946], [38.897675107651, -77.036546998209], [41.88088065993, -87.617151749561], [29.959110610746, -90.065297162552], [36.129987347159, -115.166478531496], [34.101839998784, -118.336535989464], [27.607573679703, -80.338670990326], [47.62210199033, -122.353993999937], [48.8697301, 2.3082335], [41.889957, 12.4933358], [39.902361253954, 116.391459619195], [51.500912516034, -0.122782037327], [52.516351086984, 13.379502749463], [55.7540296, 37.62045], [35.01169705, 135.76816161], [-33.858776499452, 151.213215874142], [30.0434879, 31.2352919], [-22.95166, -43.21083], [19.294731123333, -99.155798490888], [37.969390897997, 23.729079125323], [18.9218899, 72.8346699], [41.007763124274, 28.97904846216], [-33.949857139377, 18.397393521969], [43.641936911103, -79.386715469596], [13.752547700907, 100.488422825049], [38.697403569934, -9.205444383804], [52.35994237585, 4.885385644103], [41.403187569884, 2.174823499366]],
+                {}
             );
         
 </script>

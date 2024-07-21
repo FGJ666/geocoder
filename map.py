@@ -28,4 +28,4 @@ for _, row in df.iterrows():
 m.fit_bounds(coordinates)
 
 # Save the map to an HTML file
-m.save('map.html')
+m.save(r'geocoder\map\map.html')
