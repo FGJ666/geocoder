@@ -62,7 +62,7 @@ def main(input_filename, output_filename, sep=",", provider="arcgis", encoding='
     """
     df = load_data(input_filename, sep, encoding)
     geocoded_df = geocode_addresses(df, provider)
-    df = df.join(geocoded_df, how='inner')
+    df = df.join(geocoded_df, how='left')
     save_data(df, output_filename)
 
 # Example usage
