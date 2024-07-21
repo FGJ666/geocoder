@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f6af16b70c166dcf4aac7ee42e6a0acb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f6af16b70c166dcf4aac7ee42e6a0acb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f6af16b70c166dcf4aac7ee42e6a0acb = L.map(
+                "map_f6af16b70c166dcf4aac7ee42e6a0acb",
+                {
+                    center: [40.707284543061, -74.011910079984],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c799e9a796b048878ef8d22fe7c07830 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c799e9a796b048878ef8d22fe7c07830.addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            var marker_1d4c711f39576368f6c283760e8f6f11 = L.marker(
+                [40.707284543061, -74.011910079984],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_1d4c711f39576368f6c283760e8f6f11.bindTooltip(
+                `<div>
+                     1 Wall St, New York, New York, 10005
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91f836f5a8d13d8d7b9a57ca3743d61e = L.marker(
+                [37.761547490999, -122.470431371565],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_91f836f5a8d13d8d7b9a57ca3743d61e.bindTooltip(
+                `<div>
+                     Funston Ave, San Francisco, California, 94122
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed4418eb128ac56ac10858aba1f4355c = L.marker(
+                [43.874208751811, -103.454227031946],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_ed4418eb128ac56ac10858aba1f4355c.bindTooltip(
+                `<div>
+                     Mount Rushmore National Memorial, Keystone, South Dakota, 57751
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88a3ea3f3283f2ab5a9be5dfa25a8cc6 = L.marker(
+                [38.897675107651, -77.036546998209],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_88a3ea3f3283f2ab5a9be5dfa25a8cc6.bindTooltip(
+                `<div>
+                     1600 Pennsylvania Ave NW, Washington, District of Columbia, 20500
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6949e784b6c3aa3eac8609487e034abd = L.marker(
+                [41.88088065993, -87.617151749561],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_6949e784b6c3aa3eac8609487e034abd.bindTooltip(
+                `<div>
+                     200 S Lake Shore Dr, Chicago, Illinois, 60603
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4d13be7ec392fff53fc9783b4c66de4 = L.marker(
+                [29.959110610746, -90.065297162552],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_c4d13be7ec392fff53fc9783b4c66de4.bindTooltip(
+                `<div>
+                     723 Bourbon St, New Orleans, Louisiana, 70116
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_648d7fe1c05aab1054594d31c30cdef1 = L.marker(
+                [36.129987347159, -115.166478531496],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_648d7fe1c05aab1054594d31c30cdef1.bindTooltip(
+                `<div>
+                     3100 Las Vegas Blvd S, Las Vegas, Nevada, 89109
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93264aaf00b7350e7001139f1da28f29 = L.marker(
+                [34.101839998784, -118.336535989464],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_93264aaf00b7350e7001139f1da28f29.bindTooltip(
+                `<div>
+                     6701 Hollywood Blvd, Los Angeles, California, 90028
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11f7b315ea1f59d5729fcec4d8a063f6 = L.marker(
+                [27.607573679703, -80.338670990326],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_11f7b315ea1f59d5729fcec4d8a063f6.bindTooltip(
+                `<div>
+                     1116 Ocean Way, Vero Beach, Florida, 32963
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13d764433f275461806b4b8dc04ab116 = L.marker(
+                [47.62210199033, -122.353993999937],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_13d764433f275461806b4b8dc04ab116.bindTooltip(
+                `<div>
+                     400 1st Ave N, Seattle, Washington, 98109
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f80a179fecfc308429f3d0e00eb1026c = L.marker(
+                [48.8697301, 2.3082335],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_f80a179fecfc308429f3d0e00eb1026c.bindTooltip(
+                `<div>
+                     Champs-Élysées
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fae28aab0e3b3ae96b183cc70edaa8ed = L.marker(
+                [41.889957, 12.4933358],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_fae28aab0e3b3ae96b183cc70edaa8ed.bindTooltip(
+                `<div>
+                     Colosseo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98337350d388734751054ee116ab847c = L.marker(
+                [39.902361253954, 116.391459619195],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_98337350d388734751054ee116ab847c.bindTooltip(
+                `<div>
+                     天安门广场
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d2f149893b5b14a89e31d869eb175ff = L.marker(
+                [51.500912516034, -0.122782037327],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_5d2f149893b5b14a89e31d869eb175ff.bindTooltip(
+                `<div>
+                     Westminster Bridge Road, Saint. James's, Westminster, London, England, SE1 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a47fe5cf45e374f7fb47466837fe9fb0 = L.marker(
+                [52.516351086984, 13.379502749463],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_a47fe5cf45e374f7fb47466837fe9fb0.bindTooltip(
+                `<div>
+                     Pariser Platz, 10117, Berlin, Mitte, Berlin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be005cfbb89aa49c9cfca7cd2b3ad24b = L.marker(
+                [55.7540296, 37.62045],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_be005cfbb89aa49c9cfca7cd2b3ad24b.bindTooltip(
+                `<div>
+                     Красная Площадь
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_559dcb47c274aa24c4c96df4307e7794 = L.marker(
+                [35.01169705, 135.76816161],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_559dcb47c274aa24c4c96df4307e7794.bindTooltip(
+                `<div>
+                     Kyoto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea54823acdc5d75b6504672cf2cdf2bf = L.marker(
+                [-33.858776499452, 151.213215874142],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_ea54823acdc5d75b6504672cf2cdf2bf.bindTooltip(
+                `<div>
+                     Sydney Opera House, 2 Circular Quay East, Sydney, New South Wales, 2000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d97c04fc0c1a1c82e3fa08516fc439a0 = L.marker(
+                [30.0434879, 31.2352919],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_d97c04fc0c1a1c82e3fa08516fc439a0.bindTooltip(
+                `<div>
+                     Cairo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99ec72660181303fcb8aa9bde8ff1edc = L.marker(
+                [-22.95166, -43.21083],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_99ec72660181303fcb8aa9bde8ff1edc.bindTooltip(
+                `<div>
+                     Cristo Redentor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ae7fdbfcc01f2e9ced6c59f53d37641 = L.marker(
+                [19.294731123333, -99.155798490888],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_6ae7fdbfcc01f2e9ced6c59f53d37641.bindTooltip(
+                `<div>
+                     Calzada de Tlalpan 3471, Belisario Domínguez Sección XVI, Tlalpan, Ciudad de México, 14080
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d156b83fb15b299433c7eeb9554e5dc = L.marker(
+                [37.969390897997, 23.729079125323],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_1d156b83fb15b299433c7eeb9554e5dc.bindTooltip(
+                `<div>
+                     Διονυσίου Αρεοπαγίτου 15, 117 42, Αθήνα
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a61d0a5ef3ca95aec5771d327ac2355 = L.marker(
+                [18.9218899, 72.8346699],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_3a61d0a5ef3ca95aec5771d327ac2355.bindTooltip(
+                `<div>
+                     Gateway Of India
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b314d9418d2dd8217c19b91e267bd401 = L.marker(
+                [41.007763124274, 28.97904846216],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_b314d9418d2dd8217c19b91e267bd401.bindTooltip(
+                `<div>
+                     Cankurtaran, Ayasofya Meydanı, 34122, Fatih, İstanbul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c481cbab74da056c7452def9135024b = L.marker(
+                [-33.949857139377, 18.397393521969],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_8c481cbab74da056c7452def9135024b.bindTooltip(
+                `<div>
+                     Tafelberg Road, Cape Town, City of Cape Town, Western Cape, 8001
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7b3d97f7ca3029dc74790398f44a343 = L.marker(
+                [43.641936911103, -79.386715469596],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_b7b3d97f7ca3029dc74790398f44a343.bindTooltip(
+                `<div>
+                     290 Bremner Blvd, Toronto, Ontario, M5V 3L9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5bd559a203713ab4d5bcf7e4d67fcdb2 = L.marker(
+                [13.752547700907, 100.488422825049],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_5bd559a203713ab4d5bcf7e4d67fcdb2.bindTooltip(
+                `<div>
+                     เขตพระนคร กุรงเทพมหานคร
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_792b86a761441db06c559c6ff4a5029c = L.marker(
+                [38.697403569934, -9.205444383804],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_792b86a761441db06c559c6ff4a5029c.bindTooltip(
+                `<div>
+                     Praça do Império, 1400-206, Lisboa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa89c0925b117559c39ce6aeb3f3aa4b = L.marker(
+                [52.35994237585, 4.885385644103],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_fa89c0925b117559c39ce6aeb3f3aa4b.bindTooltip(
+                `<div>
+                     Museumstraat 1, 1071 XX Amsterdam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a7b881200dda01c45e2b22271ba82c7 = L.marker(
+                [41.403187569884, 2.174823499366],
+                {}
+            ).addTo(map_f6af16b70c166dcf4aac7ee42e6a0acb);
+        
+    
+            marker_1a7b881200dda01c45e2b22271ba82c7.bindTooltip(
+                `<div>
+                     Carrer de Mallorca 401, 08013, la Sagrada Família, Barcelona, Catalunya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

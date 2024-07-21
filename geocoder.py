@@ -2,6 +2,8 @@ import pandas as pd
 from geopandas.tools import geocode
 
 # Function to load data from a CSV file
+
+
 def load_data(filename, sep=",", encoding='utf-8'):
     """
     Loads data from a CSV file into a DataFrame.
@@ -18,6 +20,8 @@ def load_data(filename, sep=",", encoding='utf-8'):
     return df
 
 # Function to geocode addresses
+
+
 def geocode_addresses(df, provider="arcgis", user_agent=None, timeout=None):
     """
     Geocodes addresses in a DataFrame, adding a column with coordinates.
@@ -31,13 +35,17 @@ def geocode_addresses(df, provider="arcgis", user_agent=None, timeout=None):
     Returns:
         pandas.DataFrame: DataFrame with added coordinates.
     """
-    addresses = df[["address", "city", "district", "neighbourhoods"]].apply(lambda x: ', '.join(x.dropna()), axis=1)
-    geocoded_df = geocode(addresses, provider=provider, user_agent=user_agent, timeout=timeout)
+    addresses = df[["address", "city", "district", "neighbourhoods"]].apply(
+        lambda x: ', '.join(x.dropna()), axis=1)
+    geocoded_df = geocode(addresses, provider=provider,
+                          user_agent=user_agent, timeout=timeout)
     geocoded_df.columns = ['coordinates', 'full_address']
-    geocoded_df['coordinates'] = geocoded_df['coordinates'].apply(lambda geom: f"{geom.y:.6f},{geom.x:.6f}")
+    # geocoded_df['coordinates'] = geocoded_df['coordinates'].apply(lambda geom: f"{geom.y:.6f},{geom.x:.6f}")
     return geocoded_df
 
 # Function to save geocoded data to a CSV file
+
+
 def save_data(df, output_filename):
     """
     Saves a DataFrame with geocoded data to a CSV file.
@@ -49,6 +57,8 @@ def save_data(df, output_filename):
     df.to_csv(output_filename, index=False)
 
 # Main function that combines all steps
+
+
 def main(input_filename, output_filename, sep=",", provider="arcgis", encoding='utf-8'):
     """
     Loads data from CSV, geocodes addresses, and saves the result to CSV.
@@ -64,6 +74,7 @@ def main(input_filename, output_filename, sep=",", provider="arcgis", encoding='
     geocoded_df = geocode_addresses(df, provider)
     df = df.join(geocoded_df, how='left')
     save_data(df, output_filename)
+
 
 # Example usage
 if __name__ == "__main__":

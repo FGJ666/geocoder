@@ -1,31 +1,31 @@
 city,district,neighbourhoods,address,coordinates,full_address
-New York City,Manhattan,Financial District,1 Wall St,"40.707285,-74.011910","1 Wall St, New York, New York, 10005"
-San Francisco,Golden Gate Park,N-Funston Ave,Golden Gate Bridge,"37.761547,-122.470431","Funston Ave, San Francisco, California, 94122"
-Mount Rushmore,Keystone,Mount Rushmore National Memorial,13000 Mount Rushmore Rd,"43.874209,-103.454227","Mount Rushmore National Memorial, Keystone, South Dakota, 57751"
-"Washington, D.C.",National Mall,NW Independence Ave SW,1600 Pennsylvania Ave NW,"38.897675,-77.036547","1600 Pennsylvania Ave NW, Washington, District of Columbia, 20500"
-Chicago,Loop,Millennium Park,200 S. Lake Shore Dr,"41.880881,-87.617152","200 S Lake Shore Dr, Chicago, Illinois, 60603"
-New Orleans,French Quarter,Bourbon St,723 Bourbon St,"29.959111,-90.065297","723 Bourbon St, New Orleans, Louisiana, 70116"
-Las Vegas,The Strip,Paradise Rd,3100 S. Las Vegas Blvd,"36.129987,-115.166479","3100 Las Vegas Blvd S, Las Vegas, Nevada, 89109"
-Los Angeles,Hollywood,Hollywood Walk of Fame,6701 Hollywood Blvd,"34.101840,-118.336536","6701 Hollywood Blvd, Los Angeles, California, 90028"
-Miami,South Beach,Ocean Dr,1116 Ocean Dr,"27.607574,-80.338671","1116 Ocean Way, Vero Beach, Florida, 32963"
-Seattle,Seattle Center,1st Ave N,400 1st Ave N,"47.622102,-122.353994","400 1st Ave N, Seattle, Washington, 98109"
-Paris,Île-de-France,Champs-Élysées,8 Avenue des Champs-Élysées,"48.869730,2.308234",Champs-Élysées
-Rome,Lazio,Colosseo,Piazza del Colosseo,"41.889957,12.493336",Colosseo
-Beijing,北京,东城区,天安门广场,"39.902361,116.391460",天安门广场
-London,England,Westminster,Westminster Bridge Rd,"51.500913,-0.122782","Westminster Bridge Road, Saint. James's, Westminster, London, England, SE1 7"
-Berlin,Berlin,Mitte,Pariser Platz,"52.516351,13.379503","Pariser Platz, 10117, Berlin, Mitte, Berlin"
-Moscow,Москва,Красная площадь,3,"55.754030,37.620450",Красная Площадь
-Kyoto,京都市,中京区,二条城町541,"35.011697,135.768162",Kyoto
-Sydney,New South Wales,Bennelong Point,Sydney Opera House,"-33.858776,151.213216","Sydney Opera House, 2 Circular Quay East, Sydney, New South Wales, 2000"
-Cairo,الجيزة,طريق الأهرامات,أهرامات الجيزة,"30.043488,31.235292",Cairo
-Rio de Janeiro,Estado do Rio de Janeiro,Corcovado,Cristo Redentor,"-22.951660,-43.210830",Cristo Redentor
-Mexico City,Ciudad de México,Tlalpan,Calzada de Tlalpan 3471,"19.294731,-99.155798","Calzada de Tlalpan 3471, Belisario Domínguez Sección XVI, Tlalpan, Ciudad de México, 14080"
-Athens,Αττική,Ακρόπολη,Διονυσίου Αρεοπαγίτου 15,"37.969391,23.729079","Διονυσίου Αρεοπαγίτου 15, 117 42, Αθήνα"
-Mumbai,Maharashtra,Colaba,Gateway of India,"18.921890,72.834670",Gateway Of India
-Istanbul,İstanbul,Fatih,Ayasofya Meydanı,"41.007763,28.979048","Cankurtaran, Ayasofya Meydanı, 34122, Fatih, İstanbul"
-Cape Town,Western Cape,Table Mountain National Park,Tafelberg Rd,"-33.949857,18.397394","Tafelberg Road, Cape Town, City of Cape Town, Western Cape, 8001"
-Toronto,Ontario,Entertainment District,290 Bremner Blvd,"43.641937,-79.386715","290 Bremner Blvd, Toronto, Ontario, M5V 3L9"
-Bangkok,กรุงเทพมหานคร,Phra Nakhon,พระบรมมหาราชวัง,"13.752548,100.488423",เขตพระนคร กุรงเทพมหานคร
-Lisbon,Lisboa,Belém,Praça do Império,"38.697404,-9.205444","Praça do Império, 1400-206, Lisboa"
-Amsterdam,Noord-Holland,Centrum,Museumstraat 1,"52.359942,4.885386","Museumstraat 1, 1071 XX Amsterdam"
-Barcelona,Cataluña,Eixample,Carrer de Mallorca 401,"41.403188,2.174823","Carrer de Mallorca 401, 08013, la Sagrada Família, Barcelona, Catalunya"
+New York City,Manhattan,Financial District,1 Wall St,POINT (-74.011910079984 40.707284543061),"1 Wall St, New York, New York, 10005"
+San Francisco,Golden Gate Park,N-Funston Ave,Golden Gate Bridge,POINT (-122.470431371565 37.761547490999),"Funston Ave, San Francisco, California, 94122"
+Mount Rushmore,Keystone,Mount Rushmore National Memorial,13000 Mount Rushmore Rd,POINT (-103.454227031946 43.874208751811),"Mount Rushmore National Memorial, Keystone, South Dakota, 57751"
+"Washington, D.C.",National Mall,NW Independence Ave SW,1600 Pennsylvania Ave NW,POINT (-77.036546998209 38.897675107651),"1600 Pennsylvania Ave NW, Washington, District of Columbia, 20500"
+Chicago,Loop,Millennium Park,200 S. Lake Shore Dr,POINT (-87.617151749561 41.88088065993),"200 S Lake Shore Dr, Chicago, Illinois, 60603"
+New Orleans,French Quarter,Bourbon St,723 Bourbon St,POINT (-90.065297162552 29.959110610746),"723 Bourbon St, New Orleans, Louisiana, 70116"
+Las Vegas,The Strip,Paradise Rd,3100 S. Las Vegas Blvd,POINT (-115.166478531496 36.129987347159),"3100 Las Vegas Blvd S, Las Vegas, Nevada, 89109"
+Los Angeles,Hollywood,Hollywood Walk of Fame,6701 Hollywood Blvd,POINT (-118.336535989464 34.101839998784),"6701 Hollywood Blvd, Los Angeles, California, 90028"
+Miami,South Beach,Ocean Dr,1116 Ocean Dr,POINT (-80.338670990326 27.607573679703),"1116 Ocean Way, Vero Beach, Florida, 32963"
+Seattle,Seattle Center,1st Ave N,400 1st Ave N,POINT (-122.353993999937 47.62210199033),"400 1st Ave N, Seattle, Washington, 98109"
+Paris,Île-de-France,Champs-Élysées,8 Avenue des Champs-Élysées,POINT (2.3082335 48.8697301),Champs-Élysées
+Rome,Lazio,Colosseo,Piazza del Colosseo,POINT (12.4933358 41.889957),Colosseo
+Beijing,北京,东城区,天安门广场,POINT (116.391459619195 39.902361253954),天安门广场
+London,England,Westminster,Westminster Bridge Rd,POINT (-0.122782037327 51.500912516034),"Westminster Bridge Road, Saint. James's, Westminster, London, England, SE1 7"
+Berlin,Berlin,Mitte,Pariser Platz,POINT (13.379502749463 52.516351086984),"Pariser Platz, 10117, Berlin, Mitte, Berlin"
+Moscow,Москва,Красная площадь,3,POINT (37.62045 55.7540296),Красная Площадь
+Kyoto,京都市,中京区,二条城町541,POINT (135.76816161 35.01169705),Kyoto
+Sydney,New South Wales,Bennelong Point,Sydney Opera House,POINT (151.213215874142 -33.858776499452),"Sydney Opera House, 2 Circular Quay East, Sydney, New South Wales, 2000"
+Cairo,الجيزة,طريق الأهرامات,أهرامات الجيزة,POINT (31.2352919 30.0434879),Cairo
+Rio de Janeiro,Estado do Rio de Janeiro,Corcovado,Cristo Redentor,POINT (-43.21083 -22.95166),Cristo Redentor
+Mexico City,Ciudad de México,Tlalpan,Calzada de Tlalpan 3471,POINT (-99.155798490888 19.294731123333),"Calzada de Tlalpan 3471, Belisario Domínguez Sección XVI, Tlalpan, Ciudad de México, 14080"
+Athens,Αττική,Ακρόπολη,Διονυσίου Αρεοπαγίτου 15,POINT (23.729079125323 37.969390897997),"Διονυσίου Αρεοπαγίτου 15, 117 42, Αθήνα"
+Mumbai,Maharashtra,Colaba,Gateway of India,POINT (72.8346699 18.9218899),Gateway Of India
+Istanbul,İstanbul,Fatih,Ayasofya Meydanı,POINT (28.97904846216 41.007763124274),"Cankurtaran, Ayasofya Meydanı, 34122, Fatih, İstanbul"
+Cape Town,Western Cape,Table Mountain National Park,Tafelberg Rd,POINT (18.397393521969 -33.949857139377),"Tafelberg Road, Cape Town, City of Cape Town, Western Cape, 8001"
+Toronto,Ontario,Entertainment District,290 Bremner Blvd,POINT (-79.386715469596 43.641936911103),"290 Bremner Blvd, Toronto, Ontario, M5V 3L9"
+Bangkok,กรุงเทพมหานคร,Phra Nakhon,พระบรมมหาราชวัง,POINT (100.488422825049 13.752547700907),เขตพระนคร กุรงเทพมหานคร
+Lisbon,Lisboa,Belém,Praça do Império,POINT (-9.205444383804 38.697403569934),"Praça do Império, 1400-206, Lisboa"
+Amsterdam,Noord-Holland,Centrum,Museumstraat 1,POINT (4.885385644103 52.35994237585),"Museumstraat 1, 1071 XX Amsterdam"
+Barcelona,Cataluña,Eixample,Carrer de Mallorca 401,POINT (2.174823499366 41.403187569884),"Carrer de Mallorca 401, 08013, la Sagrada Família, Barcelona, Catalunya"
