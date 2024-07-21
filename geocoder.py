@@ -34,6 +34,7 @@ def geocode_addresses(df, provider="arcgis", user_agent=None, timeout=None):
     addresses = df[["address", "city", "district", "neighbourhoods"]].apply(lambda x: ', '.join(x.dropna()), axis=1)
     geocoded_df = geocode(addresses, provider=provider, user_agent=user_agent, timeout=timeout)
     geocoded_df.columns = ['coordinates', 'full_address']
+    geocoded_df['coordinates'] = geocoded_df['coordinates'].apply(lambda geom: f"{geom.y:.6f},{geom.x:.6f}")
     return geocoded_df
 
 # Function to save geocoded data to a CSV file
