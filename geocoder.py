@@ -78,4 +78,4 @@ def main(input_filename, output_filename, sep=",", provider="arcgis", encoding='
 
 # Example usage
 if __name__ == "__main__":
-    main(r"geocoder/address_test.csv", r"geocoder/output_test.csv")
+    main(r"geocoder\data\address_test.csv", r"geocoder\data\output_test.csv")

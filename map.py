@@ -3,7 +3,7 @@ import folium
 from shapely import wkt
 
 # Load data from CSV
-df = pd.read_csv('geocoder/output_test.csv')
+df = pd.read_csv(r'geocoder\data\output_test.csv')
 
 # Convert coordinates to geometric objects
 df['geometry'] = df['coordinates'].apply(wkt.loads)
